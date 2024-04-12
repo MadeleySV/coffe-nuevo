@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 *{
     margin: 0;
     padding:0;
@@ -13,6 +15,42 @@ header{
     background-position:center;
     height: 300px;
 }
+/* agregg */
+
+
+.button-container{
+    display: flex ;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: Concert One;
+    }
+  .horizontal-button {
+    padding: 10px 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    background-color: #f0f0f0;
+    cursor: pointer; 
+  }
+  .horizontal-button:hover {
+    background-color: #e0e0e0;  
+  }
+  .button-container {
+    display: flex;
+  }
+  .horizontal-button {
+    padding: 10px 20px;
+    border: none;
+    background-color:  #AF936D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+  }
+   
+      
+  /* }  */
 header h1{
     text-align: center;
     font-size: 35px;
@@ -72,7 +110,7 @@ header h1{
     display: block;
     margin: 10px auto;
     border: none;
-    background-color: black;
+    background-color:#af936d;
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
@@ -94,7 +132,7 @@ header h1{
     opacity: 0;
 }
 .carrito .header-carrito{
-    background-color: #000;
+    background-color: #af936d;
     color: #fff;
     text-align: center;
     padding: 30px 0;
@@ -136,7 +174,7 @@ header h1{
     line-height: 32px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid #af936d;
     cursor: pointer;
 }
 .carrito .carrito-item .carrito-item-precio{
@@ -149,14 +187,14 @@ header h1{
     position: absolute;
     right: 15px;
     top: 15px;
-    color: #000;
+    color: #af936d;
     font-size: 20px;
     width: 40px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid #af936d;
     cursor: pointer;
     display: block;
     background: transparent;
@@ -182,7 +220,7 @@ header h1{
     display: block;
     width: 100%;
     border: none;
-    background: #000;
+    background: #af936d;
     color: #fff;
     border-radius: 5px;
     font-size: 18px;
@@ -209,3 +247,16 @@ header h1{
         width: 100%;
     }
   }
+
+  /* 
+   */
+
+   .nav-nombre {
+    color: white;
+    font-family: Concert One;
+    font-size: 35px;
+    font-family: Concert One;
+  }
+
+
+  
