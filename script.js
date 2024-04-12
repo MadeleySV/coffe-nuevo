@@ -8,6 +8,7 @@ if(document.readyState == 'loading'){
     ready();
 }
 
+// agg
 function ready(){
     
     //Agregremos funcionalidad a los botones eliminar del carrito
